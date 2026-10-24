@@ -6511,3 +6511,40 @@ fetched_at_utc,source_updated_at_utc,parking_id,parking_name,address,status,free
 2026-10-24T06:00:57Z,2026-10-24T05:59:21Z,theater_11,Parkplatz Theater 11,Dörfli-/Thurgauerstrasse,open,136
 2026-10-24T06:00:57Z,2026-10-24T05:59:20Z,unispital_sued,Parkplatz USZ Süd,Gloriastrasse,open,63
 2026-10-24T06:00:57Z,2026-10-24T05:55:20Z,puls5,Puls 5 Parkgarage,Giessereistrasse 18,open,53
+2026-10-24T06:15:28Z,2026-10-24T06:12:21Z,accu,Parkhaus Accu,Otto-Schütz-Weg,open,168
+2026-10-24T06:15:28Z,2026-10-24T06:10:21Z,albisriederplatz,Parkhaus Albisriederplatz,Badenerstrasse 380,open,53
+2026-10-24T06:15:28Z,2026-10-24T06:14:21Z,bleicherweg,Parkhaus Bleicherweg,Beethovenstrasse 35,open,130
+2026-10-24T06:15:28Z,2026-10-24T06:12:20Z,center_11,Parkhaus Center Eleven,Sophie-Täuber-Strasse 4,open,296
+2026-10-24T06:15:28Z,2026-10-24T06:13:20Z,cp,Parkhaus City Parking,Gessnerallee 14,open,486
+2026-10-24T06:15:28Z,2026-10-24T06:06:20Z,cityport,Parkhaus Cityport,Affolternstrasse 56,open,140
+2026-10-24T06:15:28Z,2026-10-24T06:13:21Z,crowne_plaza,Parkhaus Crowne Plaza,Badenerstrasse 420,open,40
+2026-10-24T06:15:28Z,2026-10-24T06:06:21Z,dorflinde,Parkhaus Dorflinde,Schwamendingenstrasse 31,open,40
+2026-10-24T06:15:28Z,2026-10-24T06:12:21Z,feldegg,Parkhaus Feldegg,Riesbachstrasse 7,open,124
+2026-10-24T06:15:28Z,2026-10-24T06:08:20Z,globus,Parkhaus Globus,Löwenstrasse 50,open,116
+2026-10-24T06:15:28Z,2026-10-16T04:50:21Z,hafen_enge,Parkhaus Hafen Enge,Mythenquai 21,unknown,
+2026-10-24T06:15:28Z,2026-10-24T06:14:20Z,hardau,Parkhaus Hardau II,Bullingerstrasse 73,open,91
+2026-10-24T06:15:28Z,2026-10-24T06:14:21Z,hb,Parkhaus Hauptbahnhof,Sihlquai 41,open,113
+2026-10-24T06:15:28Z,2026-10-24T05:12:20Z,helvetia,Parkhaus Helvetiaplatz,Molkenstrasse 5/9,open,48
+2026-10-24T06:15:28Z,2026-10-24T06:13:21Z,promenade,Parkhaus Hohe Promenade,Rämistrasse 22a,open,441
+2026-10-24T06:15:28Z,2026-10-24T06:13:20Z,jelmoli,Parkhaus Jelmoli,Steinmühleplatz 1,open,151
+2026-10-24T06:15:28Z,2026-10-24T06:07:20Z,jungholz,Parkhaus Jungholz,Jungholzstrasse 19,open,130
+2026-10-24T06:15:28Z,2026-10-24T06:08:21Z,max_bill_platz,Parkhaus Max-Bill-Platz,Armin-Bollinger-Weg,open,86
+2026-10-24T06:15:28Z,2026-10-22T13:56:20Z,messe,Parkhaus Messe Zürich AG,Andreasstrasse 65,open,999
+2026-10-24T06:15:28Z,2026-10-24T06:12:21Z,nordhaus,Parkhaus Nordhaus,Siewerdtstrasse 8,open,121
+2026-10-24T06:15:28Z,2026-10-24T05:59:21Z,octavo,Parkhaus Octavo,Brown-Boveri-Strasse 2,open,104
+2026-10-24T06:15:28Z,2026-10-24T06:12:20Z,opera,Parkhaus Opéra,Schillerstrasse 5,open,259
+2026-10-24T06:15:28Z,2026-08-17T08:45:20Z,p_west,Parkhaus P West,Förrlibuckstrasse 151,unknown,
+2026-10-24T06:15:28Z,2026-10-24T06:06:21Z,park_hyatt,Parkhaus Park Hyatt,Beethovenstrasse 21,open,197
+2026-10-24T06:15:28Z,2026-10-24T00:06:21Z,parkside,Parkhaus Parkside,Sophie-Täuber-Strasse 10,open,34
+2026-10-24T06:15:28Z,2026-10-24T06:04:21Z,pfingstweid,Parkhaus Pfingstweid,Pfingstweidstrasse 1,open,178
+2026-10-24T06:15:28Z,2026-10-24T06:06:20Z,stampfenbach,Parkhaus Stampfenbach,Niklausstrasse 1,open,239
+2026-10-24T06:15:28Z,2026-10-24T06:04:21Z,talgarten,Parkhaus Talgarten,Nüschelerstrasse 31,open,69
+2026-10-24T06:15:28Z,2026-10-24T06:09:21Z,unispital_nord,Parkhaus USZ Nord,Frauenklinikstrasse,open,64
+2026-10-24T06:15:28Z,2026-10-24T06:10:21Z,uni_irchel,Parkhaus Uni Irchel,Winterthurerstrasse 181,open,506
+2026-10-24T06:15:28Z,2026-10-24T06:13:21Z,urania,Parkhaus Urania,Uraniastrasse 3,open,387
+2026-10-24T06:15:28Z,2026-10-24T05:20:20Z,utoquai,Parkhaus Utoquai,Färberstrasse 6,open,28
+2026-10-24T06:15:28Z,2026-08-17T08:45:20Z,zueri11,Parkhaus Züri 11 Shopping,Nansenstrasse 5/7,open,43
+2026-10-24T06:15:28Z,2026-10-24T06:00:21Z,zuerichhorn,Parkhaus Zürichhorn,Dufourstrasse 142,open,49
+2026-10-24T06:15:28Z,2026-10-24T06:14:21Z,theater_11,Parkplatz Theater 11,Dörfli-/Thurgauerstrasse,open,137
+2026-10-24T06:15:28Z,2026-10-24T06:00:21Z,unispital_sued,Parkplatz USZ Süd,Gloriastrasse,open,64
+2026-10-24T06:15:28Z,2026-10-24T05:55:20Z,puls5,Puls 5 Parkgarage,Giessereistrasse 18,open,53
