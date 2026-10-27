@@ -18610,3 +18610,40 @@ fetched_at_utc,source_updated_at_utc,parking_id,parking_name,address,status,free
 2026-10-27T11:01:03Z,2026-10-27T10:59:21Z,theater_11,Parkplatz Theater 11,Dörfli-/Thurgauerstrasse,open,133
 2026-10-27T11:01:03Z,2026-10-27T11:00:21Z,unispital_sued,Parkplatz USZ Süd,Gloriastrasse,open,4
 2026-10-27T11:01:03Z,2026-10-27T11:00:21Z,puls5,Puls 5 Parkgarage,Giessereistrasse 18,open,13
+2026-10-27T11:15:30Z,2026-10-27T11:06:21Z,accu,Parkhaus Accu,Otto-Schütz-Weg,open,168
+2026-10-27T11:15:30Z,2026-10-27T11:12:20Z,albisriederplatz,Parkhaus Albisriederplatz,Badenerstrasse 380,open,41
+2026-10-27T11:15:30Z,2026-10-27T11:13:21Z,bleicherweg,Parkhaus Bleicherweg,Beethovenstrasse 35,open,3
+2026-10-27T11:15:30Z,2026-10-27T11:14:20Z,center_11,Parkhaus Center Eleven,Sophie-Täuber-Strasse 4,open,201
+2026-10-27T11:15:30Z,2026-10-27T11:14:20Z,cp,Parkhaus City Parking,Gessnerallee 14,open,43
+2026-10-27T11:15:30Z,2026-10-27T11:04:20Z,cityport,Parkhaus Cityport,Affolternstrasse 56,open,68
+2026-10-27T11:15:30Z,2026-10-27T11:10:20Z,crowne_plaza,Parkhaus Crowne Plaza,Badenerstrasse 420,open,11
+2026-10-27T11:15:30Z,2026-10-27T11:12:21Z,dorflinde,Parkhaus Dorflinde,Schwamendingenstrasse 31,open,26
+2026-10-27T11:15:30Z,2026-10-27T11:14:21Z,feldegg,Parkhaus Feldegg,Riesbachstrasse 7,open,14
+2026-10-27T11:15:30Z,2026-10-27T11:14:20Z,globus,Parkhaus Globus,Löwenstrasse 50,open,0
+2026-10-27T11:15:30Z,2026-10-16T03:50:21Z,hafen_enge,Parkhaus Hafen Enge,Mythenquai 21,unknown,
+2026-10-27T11:15:30Z,2026-10-27T11:01:21Z,hardau,Parkhaus Hardau II,Bullingerstrasse 73,open,85
+2026-10-27T11:15:30Z,2026-10-27T11:13:21Z,hb,Parkhaus Hauptbahnhof,Sihlquai 41,open,46
+2026-10-27T11:15:30Z,2026-10-27T11:10:21Z,helvetia,Parkhaus Helvetiaplatz,Molkenstrasse 5/9,open,34
+2026-10-27T11:15:30Z,2026-10-27T11:14:21Z,promenade,Parkhaus Hohe Promenade,Rämistrasse 22a,open,196
+2026-10-27T11:15:30Z,2026-10-27T11:14:20Z,jelmoli,Parkhaus Jelmoli,Steinmühleplatz 1,open,5
+2026-10-27T11:15:30Z,2026-10-27T11:09:20Z,jungholz,Parkhaus Jungholz,Jungholzstrasse 19,open,112
+2026-10-27T11:15:30Z,2026-10-27T11:07:21Z,max_bill_platz,Parkhaus Max-Bill-Platz,Armin-Bollinger-Weg,open,80
+2026-10-27T11:15:30Z,2026-10-26T23:06:20Z,messe,Parkhaus Messe Zürich AG,Andreasstrasse 65,open,999
+2026-10-27T11:15:30Z,2026-10-27T11:07:21Z,nordhaus,Parkhaus Nordhaus,Siewerdtstrasse 8,open,50
+2026-10-27T11:15:30Z,2026-10-27T11:10:21Z,octavo,Parkhaus Octavo,Brown-Boveri-Strasse 2,open,62
+2026-10-27T11:15:30Z,2026-10-27T11:14:21Z,opera,Parkhaus Opéra,Schillerstrasse 5,open,3
+2026-10-27T11:15:30Z,2026-08-17T07:45:20Z,p_west,Parkhaus P West,Förrlibuckstrasse 151,unknown,
+2026-10-27T11:15:30Z,2026-10-27T11:12:21Z,park_hyatt,Parkhaus Park Hyatt,Beethovenstrasse 21,open,0
+2026-10-27T11:15:30Z,2026-10-27T11:14:21Z,parkside,Parkhaus Parkside,Sophie-Täuber-Strasse 10,open,1
+2026-10-27T11:15:30Z,2026-10-27T11:13:20Z,pfingstweid,Parkhaus Pfingstweid,Pfingstweidstrasse 1,open,73
+2026-10-27T11:15:30Z,2026-10-27T11:13:20Z,stampfenbach,Parkhaus Stampfenbach,Niklausstrasse 1,open,214
+2026-10-27T11:15:30Z,2026-10-27T11:14:21Z,talgarten,Parkhaus Talgarten,Nüschelerstrasse 31,open,0
+2026-10-27T11:15:30Z,2026-10-27T11:13:21Z,unispital_nord,Parkhaus USZ Nord,Frauenklinikstrasse,open,7
+2026-10-27T11:15:30Z,2026-10-27T11:14:21Z,uni_irchel,Parkhaus Uni Irchel,Winterthurerstrasse 181,open,225
+2026-10-27T11:15:30Z,2026-10-27T11:14:21Z,urania,Parkhaus Urania,Uraniastrasse 3,open,9
+2026-10-27T11:15:30Z,2026-10-27T11:13:20Z,utoquai,Parkhaus Utoquai,Färberstrasse 6,open,2
+2026-10-27T11:15:30Z,2026-08-17T07:45:20Z,zueri11,Parkhaus Züri 11 Shopping,Nansenstrasse 5/7,open,43
+2026-10-27T11:15:30Z,2026-10-27T11:12:21Z,zuerichhorn,Parkhaus Zürichhorn,Dufourstrasse 142,open,29
+2026-10-27T11:15:30Z,2026-10-27T11:14:21Z,theater_11,Parkplatz Theater 11,Dörfli-/Thurgauerstrasse,open,127
+2026-10-27T11:15:30Z,2026-10-27T11:14:20Z,unispital_sued,Parkplatz USZ Süd,Gloriastrasse,open,1
+2026-10-27T11:15:30Z,2026-10-27T11:12:20Z,puls5,Puls 5 Parkgarage,Giessereistrasse 18,open,16
