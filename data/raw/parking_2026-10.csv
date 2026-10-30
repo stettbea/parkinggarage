@@ -28230,3 +28230,40 @@ fetched_at_utc,source_updated_at_utc,parking_id,parking_name,address,status,free
 2026-10-30T01:00:57Z,2026-10-30T00:54:21Z,theater_11,Parkplatz Theater 11,Dörfli-/Thurgauerstrasse,open,159
 2026-10-30T01:00:57Z,2026-10-30T00:02:20Z,unispital_sued,Parkplatz USZ Süd,Gloriastrasse,open,53
 2026-10-30T01:00:57Z,2026-10-30T00:18:21Z,puls5,Puls 5 Parkgarage,Giessereistrasse 18,open,60
+2026-10-30T01:15:28Z,2026-10-30T00:25:21Z,accu,Parkhaus Accu,Otto-Schütz-Weg,open,167
+2026-10-30T01:15:28Z,2026-10-29T23:24:20Z,albisriederplatz,Parkhaus Albisriederplatz,Badenerstrasse 380,open,56
+2026-10-30T01:15:28Z,2026-10-30T01:07:21Z,bleicherweg,Parkhaus Bleicherweg,Beethovenstrasse 35,open,134
+2026-10-30T01:15:28Z,2026-10-30T00:08:20Z,center_11,Parkhaus Center Eleven,Sophie-Täuber-Strasse 4,open,312
+2026-10-30T01:15:28Z,2026-10-30T01:14:20Z,cp,Parkhaus City Parking,Gessnerallee 14,open,499
+2026-10-30T01:15:28Z,2026-10-29T22:35:20Z,cityport,Parkhaus Cityport,Affolternstrasse 56,open,144
+2026-10-30T01:15:28Z,2026-10-30T00:13:21Z,crowne_plaza,Parkhaus Crowne Plaza,Badenerstrasse 420,open,145
+2026-10-30T01:15:28Z,2026-10-29T22:24:21Z,dorflinde,Parkhaus Dorflinde,Schwamendingenstrasse 31,open,39
+2026-10-30T01:15:28Z,2026-10-29T22:58:21Z,feldegg,Parkhaus Feldegg,Riesbachstrasse 7,open,129
+2026-10-30T01:15:28Z,2026-10-30T01:10:20Z,globus,Parkhaus Globus,Löwenstrasse 50,open,124
+2026-10-30T01:15:28Z,2026-10-16T03:50:21Z,hafen_enge,Parkhaus Hafen Enge,Mythenquai 21,unknown,
+2026-10-30T01:15:28Z,2026-10-29T22:34:21Z,hardau,Parkhaus Hardau II,Bullingerstrasse 73,open,96
+2026-10-30T01:15:28Z,2026-10-30T00:47:21Z,hb,Parkhaus Hauptbahnhof,Sihlquai 41,open,164
+2026-10-30T01:15:28Z,2026-10-29T23:11:20Z,helvetia,Parkhaus Helvetiaplatz,Molkenstrasse 5/9,open,52
+2026-10-30T01:15:28Z,2026-10-30T01:14:21Z,promenade,Parkhaus Hohe Promenade,Rämistrasse 22a,open,456
+2026-10-30T01:15:28Z,2026-10-29T23:26:20Z,jelmoli,Parkhaus Jelmoli,Steinmühleplatz 1,open,171
+2026-10-30T01:15:28Z,2026-10-30T00:40:20Z,jungholz,Parkhaus Jungholz,Jungholzstrasse 19,open,134
+2026-10-30T01:15:28Z,2026-10-30T00:27:21Z,max_bill_platz,Parkhaus Max-Bill-Platz,Armin-Bollinger-Weg,open,91
+2026-10-30T01:15:28Z,2026-10-26T23:06:20Z,messe,Parkhaus Messe Zürich AG,Andreasstrasse 65,open,999
+2026-10-30T01:15:28Z,2026-10-29T23:00:21Z,nordhaus,Parkhaus Nordhaus,Siewerdtstrasse 8,open,128
+2026-10-30T01:15:28Z,2026-10-29T22:34:21Z,octavo,Parkhaus Octavo,Brown-Boveri-Strasse 2,open,105
+2026-10-30T01:15:28Z,2026-10-29T23:33:21Z,opera,Parkhaus Opéra,Schillerstrasse 5,open,281
+2026-10-30T01:15:28Z,2026-08-17T07:45:20Z,p_west,Parkhaus P West,Förrlibuckstrasse 151,unknown,
+2026-10-30T01:15:28Z,2026-10-29T23:23:21Z,park_hyatt,Parkhaus Park Hyatt,Beethovenstrasse 21,open,252
+2026-10-30T01:15:28Z,2026-10-29T22:20:21Z,parkside,Parkhaus Parkside,Sophie-Täuber-Strasse 10,open,35
+2026-10-30T01:15:28Z,2026-10-30T00:22:21Z,pfingstweid,Parkhaus Pfingstweid,Pfingstweidstrasse 1,open,188
+2026-10-30T01:15:28Z,2026-10-30T00:31:20Z,stampfenbach,Parkhaus Stampfenbach,Niklausstrasse 1,open,177
+2026-10-30T01:15:28Z,2026-10-30T01:10:21Z,talgarten,Parkhaus Talgarten,Nüschelerstrasse 31,open,56
+2026-10-30T01:15:28Z,2026-10-30T00:38:21Z,unispital_nord,Parkhaus USZ Nord,Frauenklinikstrasse,open,82
+2026-10-30T01:15:28Z,2026-10-29T23:39:21Z,uni_irchel,Parkhaus Uni Irchel,Winterthurerstrasse 181,open,502
+2026-10-30T01:15:28Z,2026-10-30T00:56:21Z,urania,Parkhaus Urania,Uraniastrasse 3,open,415
+2026-10-30T01:15:28Z,2026-10-29T21:57:21Z,utoquai,Parkhaus Utoquai,Färberstrasse 6,open,33
+2026-10-30T01:15:28Z,2026-08-17T07:45:20Z,zueri11,Parkhaus Züri 11 Shopping,Nansenstrasse 5/7,open,43
+2026-10-30T01:15:28Z,2026-10-30T00:24:21Z,zuerichhorn,Parkhaus Zürichhorn,Dufourstrasse 142,open,43
+2026-10-30T01:15:28Z,2026-10-30T00:54:21Z,theater_11,Parkplatz Theater 11,Dörfli-/Thurgauerstrasse,open,159
+2026-10-30T01:15:28Z,2026-10-30T00:02:20Z,unispital_sued,Parkplatz USZ Süd,Gloriastrasse,open,53
+2026-10-30T01:15:28Z,2026-10-30T00:18:21Z,puls5,Puls 5 Parkgarage,Giessereistrasse 18,open,60
