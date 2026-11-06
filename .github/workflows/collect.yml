@@ -25,6 +25,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install database dependencies
+        run: python -m pip install "psycopg[binary]" python-dotenv
+
       - name: Collect snapshot
         run: python src/collect_parking_data.py
 
@@ -36,3 +39,8 @@ jobs:
           git diff --cached --quiet || git commit -m "data: snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase
           git push
+
+      - name: Sync parking data to Neon
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: python src/sync_parking_data.py
