@@ -19128,3 +19128,40 @@ fetched_at_utc,source_updated_at_utc,parking_id,parking_name,address,status,free
 2026-11-06T06:00:59Z,2026-11-06T05:55:21Z,theater_11,Parkplatz Theater 11,Dörfli-/Thurgauerstrasse,open,157
 2026-11-06T06:00:59Z,2026-11-06T05:59:21Z,unispital_sued,Parkplatz USZ Süd,Gloriastrasse,open,30
 2026-11-06T06:00:59Z,2026-11-06T05:53:20Z,puls5,Puls 5 Parkgarage,Giessereistrasse 18,open,44
+2026-11-06T06:15:30Z,2026-11-06T05:57:21Z,accu,Parkhaus Accu,Otto-Schütz-Weg,open,156
+2026-11-06T06:15:30Z,2026-11-06T05:44:21Z,albisriederplatz,Parkhaus Albisriederplatz,Badenerstrasse 380,open,55
+2026-11-06T06:15:30Z,2026-11-06T06:09:21Z,bleicherweg,Parkhaus Bleicherweg,Beethovenstrasse 35,open,136
+2026-11-06T06:15:30Z,2026-11-06T06:13:20Z,center_11,Parkhaus Center Eleven,Sophie-Täuber-Strasse 4,open,300
+2026-11-06T06:15:30Z,2026-11-06T06:14:20Z,cp,Parkhaus City Parking,Gessnerallee 14,open,507
+2026-11-06T06:15:30Z,2026-11-06T05:57:20Z,cityport,Parkhaus Cityport,Affolternstrasse 56,open,129
+2026-11-06T06:15:30Z,2026-11-06T06:13:21Z,crowne_plaza,Parkhaus Crowne Plaza,Badenerstrasse 420,open,83
+2026-11-06T06:15:30Z,2026-11-06T05:29:21Z,dorflinde,Parkhaus Dorflinde,Schwamendingenstrasse 31,open,39
+2026-11-06T06:15:30Z,2026-11-06T06:13:21Z,feldegg,Parkhaus Feldegg,Riesbachstrasse 7,open,115
+2026-11-06T06:15:30Z,2026-11-06T06:01:20Z,globus,Parkhaus Globus,Löwenstrasse 50,open,119
+2026-11-06T06:15:30Z,2026-11-05T16:53:21Z,hafen_enge,Parkhaus Hafen Enge,Mythenquai 21,open,112
+2026-11-06T06:15:30Z,2026-11-06T06:14:21Z,hardau,Parkhaus Hardau II,Bullingerstrasse 73,open,89
+2026-11-06T06:15:30Z,2026-11-06T06:05:21Z,hb,Parkhaus Hauptbahnhof,Sihlquai 41,open,144
+2026-11-06T06:15:30Z,2026-11-06T06:00:21Z,helvetia,Parkhaus Helvetiaplatz,Molkenstrasse 5/9,open,67
+2026-11-06T06:15:30Z,2026-11-06T06:14:21Z,promenade,Parkhaus Hohe Promenade,Rämistrasse 22a,open,439
+2026-11-06T06:15:30Z,2026-11-06T06:06:20Z,jelmoli,Parkhaus Jelmoli,Steinmühleplatz 1,open,167
+2026-11-06T06:15:30Z,2026-11-06T05:57:20Z,jungholz,Parkhaus Jungholz,Jungholzstrasse 19,open,134
+2026-11-06T06:15:30Z,2026-11-06T05:52:21Z,max_bill_platz,Parkhaus Max-Bill-Platz,Armin-Bollinger-Weg,open,89
+2026-11-06T06:15:30Z,2026-11-05T19:46:20Z,messe,Parkhaus Messe Zürich AG,Andreasstrasse 65,open,999
+2026-11-06T06:15:30Z,2026-11-06T06:10:21Z,nordhaus,Parkhaus Nordhaus,Siewerdtstrasse 8,open,103
+2026-11-06T06:15:30Z,2026-11-06T06:07:21Z,octavo,Parkhaus Octavo,Brown-Boveri-Strasse 2,open,94
+2026-11-06T06:15:30Z,2026-11-06T06:12:20Z,opera,Parkhaus Opéra,Schillerstrasse 5,open,271
+2026-11-06T06:15:30Z,2026-08-17T07:45:20Z,p_west,Parkhaus P West,Förrlibuckstrasse 151,unknown,
+2026-11-06T06:15:30Z,2026-11-06T06:11:21Z,park_hyatt,Parkhaus Park Hyatt,Beethovenstrasse 21,open,222
+2026-11-06T06:15:30Z,2026-11-06T06:13:21Z,parkside,Parkhaus Parkside,Sophie-Täuber-Strasse 10,open,26
+2026-11-06T06:15:30Z,2026-11-06T06:14:20Z,pfingstweid,Parkhaus Pfingstweid,Pfingstweidstrasse 1,open,142
+2026-11-06T06:15:30Z,2026-11-06T06:11:20Z,stampfenbach,Parkhaus Stampfenbach,Niklausstrasse 1,open,161
+2026-11-06T06:15:30Z,2026-11-06T06:12:21Z,talgarten,Parkhaus Talgarten,Nüschelerstrasse 31,open,50
+2026-11-06T06:15:30Z,2026-11-06T06:13:21Z,unispital_nord,Parkhaus USZ Nord,Frauenklinikstrasse,open,70
+2026-11-06T06:15:30Z,2026-11-06T06:14:21Z,uni_irchel,Parkhaus Uni Irchel,Winterthurerstrasse 181,open,396
+2026-11-06T06:15:30Z,2026-11-06T06:13:21Z,urania,Parkhaus Urania,Uraniastrasse 3,open,376
+2026-11-06T06:15:30Z,2026-11-06T06:06:20Z,utoquai,Parkhaus Utoquai,Färberstrasse 6,open,36
+2026-11-06T06:15:30Z,2026-08-17T07:45:20Z,zueri11,Parkhaus Züri 11 Shopping,Nansenstrasse 5/7,open,43
+2026-11-06T06:15:30Z,2026-11-06T05:27:21Z,zuerichhorn,Parkhaus Zürichhorn,Dufourstrasse 142,open,49
+2026-11-06T06:15:30Z,2026-11-06T06:11:21Z,theater_11,Parkplatz Theater 11,Dörfli-/Thurgauerstrasse,open,153
+2026-11-06T06:15:30Z,2026-11-06T06:14:20Z,unispital_sued,Parkplatz USZ Süd,Gloriastrasse,open,23
+2026-11-06T06:15:30Z,2026-11-06T06:14:20Z,puls5,Puls 5 Parkgarage,Giessereistrasse 18,open,42
