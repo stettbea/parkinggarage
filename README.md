@@ -278,6 +278,20 @@ C. Prüfen, welche Parkhäuser tatsächlich geliefert werden und welche Variable
 
 Danach würde ich erst PostgreSQL und die automatische Datensammlung aufsetzen.
 
+## Datenbereinigung (Teil B)
+
+Für EDA und Modell **nur** `data/processed/occupancy_clean.csv` verwenden (bzw. die daraus geladene Tabelle in der Datenbank), nicht die Rohdaten in `data/raw/`.
+
+Die Bereinigung ist in `notebooks/02_integration_cleaning.ipynb` (Schritt 4) dokumentiert:
+
+1. Zeilen ohne Messwert (`unknown`) entfernen
+2. Eingefrorene Werte entfernen: letzte Änderung **über 48 h** zurück
+3. Hafen Enge (keine Kapazität) und Messe (Anzeige endet bei 999) ausschliessen
+4. Pro 15-Minuten-Fenster und Parkhaus nur einen Snapshot behalten
+5. Kapazität = Maximum aus Stadt-Angabe und höchstem gemeldetem Wert
+
+⚠️ **Keine 30-Minuten-Regel verwenden.** `source_updated_at_utc` ist die Zeit der *letzten Änderung*, nicht der letzten Messung. Nachts ändert sich wenig, deshalb sind viele korrekte Werte „älter als 30 Minuten“.
+
 Das Wichtigste ist also gerade nicht, die komplette Analyse fertigzuplanen, sondern:
 
 Wir müssen jetzt zuerst sicherstellen, dass wir die Parkhausdaten zuverlässig auslesen und abspeichern können.
