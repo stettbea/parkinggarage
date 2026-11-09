@@ -1,0 +1,38 @@
+parking_id,parking_name,capacity,latitude,longitude,city_name,city_address,match_method
+accu,Parkhaus Accu,213.0,47.414853,8.540591,Accu,Fritz-Heeb-Weg 5,name
+albisriederplatz,Parkhaus Albisriederplatz,65.0,47.379393,8.50812,Albisriederplatz,Badenerstrasse 380c,name
+bleicherweg,Parkhaus Bleicherweg,258.0,47.367372,8.535696,Bleicherweg,Beethovenstrasse 35,name
+center_11,Parkhaus Center Eleven,377.0,47.412826,8.540275,Center Eleven,Sophie-Taeuber-Strasse 4,name
+cp,Parkhaus City Parking,607.0,47.37569,8.535496,City Parking,Gessnerallee 14,name
+cityport,Parkhaus Cityport,131.0,47.410875,8.540895,Cityport,Affolternstrasse 56,name
+crowne_plaza,Parkhaus Crowne Plaza,310.0,47.381153,8.506867,Crowne Plaza,Bienenstrasse 9,name
+dorflinde,Parkhaus Dorflinde,48.0,47.407595,8.548751,Dorflinde,Schwamendingenstrasse 31,name
+feldegg,Parkhaus Feldegg,147.0,47.360383,8.553527,Feldegg,Riesbachstrasse 6,name
+globus,Parkhaus Globus,139.0,47.376055,8.537717,Globus,Löwenstrasse 50a,name
+hafen_enge,Parkhaus Hafen Enge,,,,,,none
+hardau,Parkhaus Hardau II,111.0,47.381678,8.509422,Hardau II,Norastrasse 38,name
+hb,Parkhaus Hauptbahnhof,176.0,47.381563,8.537598,Hauptbahnhof,Sihlquai 41,name
+helvetia,Parkhaus Helvetiaplatz,66.0,47.37641,8.526968,Helvetiaplatz,Molkenstrasse 9,name
+promenade,Parkhaus Hohe Promenade,480.0,47.3687,8.54801,Hohe Promenade,Rämistrasse 22a,name
+jelmoli,Parkhaus Jelmoli,227.0,47.373841,8.536501,Jelmoli,Steinmühleplatz 5,name
+jungholz,Parkhaus Jungholz,119.0,47.412941,8.543832,Jungholz,Jungholzstrasse 19,name
+max_bill_platz,Parkhaus Max-Bill-Platz,98.0,47.414233,8.5391,Max Bill-Platz,Ellen-Widmann-Weg 2,name
+messe,Parkhaus Messe Zürich AG,1839.0,47.413894,8.553397,Messe,Hagenholzstrasse 50,manual
+nordhaus,Parkhaus Nordhaus,184.0,47.412086,8.547492,Nordhaus,Siewerdtstrasse 10,name
+octavo,Parkhaus Octavo,113.0,47.413603,8.536488,Octavo,Brown-Boveri-Strasse 2,name
+opera,Parkhaus Opéra,297.0,47.365203,8.547099,Opéra,Theaterstrasse 7,name
+p_west,Parkhaus P West,1004.0,47.392039,8.510836,P West,Förrlibuckstrasse 151,name
+park_hyatt,Parkhaus Park Hyatt,267.0,47.36591,8.53612,Park Hyatt,Gotthardstrasse 27,name
+parkside,Parkhaus Parkside,37.0,47.412431,8.539127,Parkside,Sophie-Taeuber-Strasse 14,name
+pfingstweid,Parkhaus Pfingstweid,276.0,47.387572,8.517785,Pfingstweid,Pfingstweidstrasse 9,name
+stampfenbach,Parkhaus Stampfenbach,215.0,47.386645,8.539427,Stampfenbach,Niklausstrasse 17,name
+talgarten,Parkhaus Talgarten,110.0,47.372146,8.536012,Talgarten,Nüschelerstrasse 30,name
+unispital_nord,Parkhaus USZ Nord,104.0,47.378908,8.549771,Unispital Nord,Frauenklinikstrasse 10,manual
+uni_irchel,Parkhaus Uni Irchel,755.0,47.398158,8.546502,Universität Irchel,Winterthurerstrasse 181,manual
+urania,Parkhaus Urania,480.0,47.374372,8.540752,Urania,Uraniastrasse 3,name
+utoquai,Parkhaus Utoquai,153.0,47.361735,8.548526,Utoquai,Färberstrasse 6,name
+zueri11,Parkhaus Züri 11 Shopping,60.0,47.410812,8.545114,Züri 11,Nansenstrasse 7,manual
+zuerichhorn,Parkhaus Zürichhorn,195.0,47.355402,8.553073,Zürichhorn,Baurstrasse 7,name
+theater_11,Parkplatz Theater 11,188.0,,,,,scraped
+unispital_sued,Parkplatz USZ Süd,80.0,,,,,scraped
+puls5,Puls 5 Parkgarage,59.0,47.390902,8.517561,Puls 5,Technoparkstrasse 10,manual

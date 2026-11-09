@@ -1,0 +1,137 @@
+city_name,city_address,capacity,category,latitude,longitude
+A-Park,Albisriederstrasse 348,74.0,Parkhaus,47.375637,8.486451
+Accu,Fritz-Heeb-Weg 5,213.0,Parkhaus,47.414853,8.540591
+Airgate,Leutschenbachstrasse 37,163.0,Parkhaus,47.415035,8.552979
+Albisriederdörfli,Bachwiesenstrasse 141,26.0,Parkhaus,47.376036,8.485043
+Albisriederplatz,Badenerstrasse 380c,65.0,Parkhaus,47.379393,8.50812
+Aldi,Ueberlandstrasse 441,58.0,Parkhaus,47.405736,8.592106
+Aldi Seebach,Schärenmoosstrasse 77a,70.0,Parkhaus,47.419748,8.556535
+Altstetten-Luggweg,Luggwegstrasse 107a,44.0,Parkhaus,47.385053,8.490689
+Atrium 565,Badenerstrasse 565b,18.0,Parkhaus,47.383777,8.497597
+Bellevue-Garage,Stadelhoferstrasse 42,20.0,Parkhaus,47.367742,8.546466
+Bethanien,Toblerstrasse 55,79.0,Parkhaus,47.380337,8.557597
+Binzmühlepark,Ruedi-Walter-Strasse 2,37.0,Parkhaus,47.414661,8.541803
+Bleicherweg,Beethovenstrasse 35,258.0,Parkhaus,47.367372,8.535696
+Bombach,Limmattalstrasse 400,25.0,Parkhaus,47.405327,8.479957
+Brunaupark,Wannerstrasse 6,269.0,Parkhaus,47.357948,8.519197
+Caréum,Pestalozzistrasse 7,50.0,Parkhaus,47.374722,8.553979
+Center Eleven,Sophie-Taeuber-Strasse 4,377.0,Parkhaus,47.412826,8.540275
+Centrum Garage,Löwenstrasse 19,21.0,Parkhaus,47.373983,8.53519
+City Bernina,Berninastrasse 45,64.0,Parkhaus,47.403693,8.546571
+City Parking,Gessnerallee 14,607.0,Parkhaus,47.37569,8.535496
+City West,Pfingstweidstrasse 51,65.0,Parkhaus,47.388602,8.514761
+Cityport,Affolternstrasse 56,131.0,Parkhaus,47.410875,8.540895
+Coop Frankenthal,Frankentalerstrasse 20b,18.0,Parkhaus,47.406231,8.481648
+Coop Goldbrunnenplatz,Kalkbreitestrasse 117,88.0,Parkhaus,47.371256,8.515526
+Coop Krone,Nansenstrasse 16,27.0,Parkhaus,47.410961,8.544994
+Coop Leimbach,Leimbachstrasse 215c,24.0,Parkhaus,47.326276,8.514647
+Coop Maschinenstrasse,Maschinenstrasse 10,18.0,Parkhaus,47.387461,8.5167
+Coop Neumünster,Zollikerstrasse 3,33.0,Parkhaus,47.364019,8.554734
+Coop Nordbrücke,Scheffelstrasse 14,29.0,Parkhaus,47.394166,8.529668
+Coop Suteracher,Am Suteracher 14,10.0,Parkhaus,47.389782,8.471711
+Coop Tiefenbrunnen,Seefeldstrasse 199,20.0,Parkhaus,47.353278,8.55904
+Coop Witikon,Loorenstrasse 40,16.0,Parkhaus,47.360491,8.594919
+Coop Wollishofen,Alte Kalchbühlstrasse 15,45.0,Parkhaus,47.340042,8.530536
+Crowne Plaza,Bienenstrasse 9,310.0,Parkhaus,47.381153,8.506867
+Denner Bockhorn,Altstetterstrasse 332,18.0,Parkhaus,47.3759,8.484048
+Der Balgrist,Forchstrasse 340,56.0,Parkhaus,47.353306,8.575689
+Dolder Grand Hotel,Kurhausstrasse 69,237.0,Parkhaus,47.372586,8.574273
+Dorflinde,Schwamendingenstrasse 31,48.0,Parkhaus,47.407595,8.548751
+ETH Hauptgebäude,Rämistrasse 101,138.0,Parkhaus,47.375922,8.548399
+ETH Hönggerberg,Hönggerbergring 20,379.0,Parkhaus,47.408592,8.50603
+ETH Hönggerberg (HPG),John-von-Neumann-Weg 9,449.0,Parkhaus,47.408131,8.509056
+Europaallee,Freischützgasse 30,27.0,Parkhaus,47.37824,8.534104
+Europaallee / Eisgasse (Haus F),Eisgasse 21,25.0,Parkhaus,47.379144,8.533319
+Feldegg,Riesbachstrasse 6,147.0,Parkhaus,47.360383,8.553527
+Flora,Schwamendingenstrasse 14,29.0,Parkhaus,47.407649,8.54757
+Globus,Löwenstrasse 50a,139.0,Parkhaus,47.376055,8.537717
+Greenpark,Mürtschenstrasse 22,48.0,Parkhaus,47.387633,8.497082
+Guggach,Hofwiesenstrasse 141,33.0,Parkhaus,47.399296,8.532174
+Gull (Europaallee),Tellstrasse 48,39.0,Parkhaus,47.379792,8.530221
+Hallenbad Leimbach,Klebestrasse 3,18.0,Parkhaus,47.326617,8.513814
+Hardau II,Norastrasse 38,111.0,Parkhaus,47.381678,8.509422
+Hardturm,Hardturmstrasse 417,365.0,Parkhaus,47.393215,8.503269
+Hardturmpark,Pfingstweidstrasse 104,145.0,Parkhaus,47.391014,8.509026
+Hauptbahnhof,Sihlquai 41,176.0,Parkhaus,47.381563,8.537598
+Helvetiaplatz,Molkenstrasse 9,66.0,Parkhaus,47.37641,8.526968
+Heuried Bad und Eisbahn,Wasserschöpfi 75,107.0,Parkhaus,47.36837,8.505971
+Hohe Promenade,Rämistrasse 22a,480.0,Parkhaus,47.3687,8.54801
+Hotel Zürichberg,Orellistrasse 21,77.0,Parkhaus,47.382604,8.567072
+Höngger Märt,Regensdorferstrasse 13,117.0,Parkhaus,47.402996,8.498
+Hürlimann,Brandschenkestrasse 132,60.0,Parkhaus,47.364435,8.525994
+Im Brühl,Regensdorferstrasse 16a,63.0,Parkhaus,47.403625,8.497998
+Imperial-Geschäftshaus,Leutschenbachstrasse 38b,164.0,Parkhaus,47.415081,8.55299
+Jelmoli,Steinmühleplatz 5,227.0,Parkhaus,47.373841,8.536501
+Jungholz,Jungholzstrasse 19,119.0,Parkhaus,47.412941,8.543832
+KV Zurich Business School,Sihlquai 305a,124.0,Parkhaus,47.390195,8.52503
+Kantonsschule Oerlikon,Birchstrasse 87,107.0,Parkhaus,47.407332,8.536227
+Kantonsschule Rämibühl,Zürichbergstrasse 12,97.0,Parkhaus,47.37263,8.551986
+Kinderspital 1,Steinwiesstrasse 80,50.0,Parkhaus,47.371664,8.55704
+Klinik Hirslanden,Enzenbühlstrasse 53,119.0,Parkhaus,47.350588,8.576084
+Krone,Badenerstrasse 705,37.0,Parkhaus,47.388224,8.483553
+Letzipark,Baslerstrasse 52,1242.0,Parkhaus,47.386371,8.49739
+Lidl Förrlibuckstrasse,Förrlibuckstrasse 60,30.0,Parkhaus,47.391497,8.514869
+Lidl Schwamendingen,Ueberlandstrasse 381,28.0,Parkhaus,47.407796,8.584597
+Lidl Wehntalerstrasse,Wehntalerstrasse 625,20.0,Parkhaus,47.422483,8.499149
+Limmat West,Hardturmstrasse 126b,29.0,Parkhaus,47.393583,8.512958
+Lindenplatz,Spirgartenstrasse 5,21.0,Parkhaus,47.38733,8.485016
+Manesseparkhaus,Hopfenstrasse 11,14.0,Parkhaus,47.365114,8.520694
+Marriot I,Neumühlequai 42,73.0,Parkhaus,47.382433,8.540471
+Marriot II,Wasserwerkstrasse 8,29.0,Parkhaus,47.382605,8.54106
+Max Bill-Platz,Ellen-Widmann-Weg 2,98.0,Parkhaus,47.414233,8.5391
+Meierhofplatz 1,Limmattalstrasse 166,13.0,Parkhaus,47.401909,8.500367
+Messe,Hagenholzstrasse 50,1839.0,Parkhaus,47.413894,8.553397
+Migros Albisrieden,Albisriederstrasse 367,25.0,Parkhaus,47.374999,8.485466
+Migros City,Löwenstrasse 33,37.0,Parkhaus,47.375118,8.536247
+Migros Herdern,Pfingstweidstrasse 101,576.0,Parkhaus,47.390247,8.509033
+Migros Kreuzplatz,Wagnergasse 16,25.0,Parkhaus,47.36439,8.553691
+Migros Limmatplatz,Gasometerstrasse 47,363.0,Parkhaus,47.385618,8.530808
+Migros Rigiplatz,Frohburgstrasse 1,55.0,Parkhaus,47.386361,8.548603
+Migros Seebach,Schaffhauserstrasse 470a,69.0,Parkhaus,47.419557,8.548414
+Migros Wiediker Markt,Burstwiesenstrasse 5,105.0,Parkhaus,47.370224,8.508061
+Migros Wollishofen,Etzelstrasse 3,35.0,Parkhaus,47.344652,8.530289
+Mühle Tiefenbrunnen,Seefeldstrasse 229a,35.0,Parkhaus,47.351136,8.561787
+Naglerwiesenstrasse,Naglerwiesenstrasse 2,21.0,Parkhaus,47.41284,8.482903
+Neudorf,Siewerdtstrasse 84,103.0,Parkhaus,47.412089,8.555596
+Neumarkt (Migros Altstetten),Baslerstrasse 145,247.0,Parkhaus,47.389385,8.487583
+Neumarkt (Zentrum Oerlikon),Nansenstrasse 21,260.0,Parkhaus,47.410485,8.54374
+Nordhaus,Siewerdtstrasse 10,184.0,Parkhaus,47.412086,8.547492
+Novotel Zürich-City,Schiffbaustrasse 11,94.0,Parkhaus,47.388979,8.517307
+Octavo,Brown-Boveri-Strasse 2,113.0,Parkhaus,47.413603,8.536488
+Opéra,Theaterstrasse 7,297.0,Parkhaus,47.365203,8.547099
+P West,Förrlibuckstrasse 151,1004.0,Parkhaus,47.392039,8.510836
+Park Hyatt,Gotthardstrasse 27,267.0,Parkhaus,47.36591,8.53612
+Parkside,Sophie-Taeuber-Strasse 14,37.0,Parkhaus,47.412431,8.539127
+Pfingstweid,Pfingstweidstrasse 9,276.0,Parkhaus,47.387572,8.517785
+Prime Tower,Hardstrasse 201,23.0,Parkhaus,47.386156,8.517234
+Puls 5,Technoparkstrasse 10,59.0,Parkhaus,47.390902,8.517561
+Quadro,Marie-Curie-Platz 1,60.0,Parkhaus,47.413559,8.552885
+"Rote Buche Bindella, BMW",Campanellaweg 6a,31.0,Parkhaus,47.382238,8.500548
+Schiffbau,Giessereistrasse 7,32.0,Parkhaus,47.389411,8.518924
+Schulthess Klinik,Lengghalde 2b,193.0,Parkhaus,47.352102,8.573366
+Sihlcity,Büttenweg 22,758.0,Parkhaus,47.356559,8.523198
+Solida Park,Saumackerstrasse 33,48.0,Parkhaus,47.387935,8.488683
+Spar Affoltern,Wehntalerstrasse 628,14.0,Parkhaus,47.422694,8.499489
+Stadion Letzigrund,Baslerstrasse 15,108.0,Parkhaus,47.383911,8.503663
+Stampfenbach,Niklausstrasse 17,215.0,Parkhaus,47.386645,8.539427
+Stauffachertor,Werdstrasse 6,57.0,Parkhaus,47.372945,8.530422
+Stockerhof,Tödistrasse 26,45.0,Parkhaus,47.365988,8.535016
+Talgarten,Nüschelerstrasse 30,110.0,Parkhaus,47.372146,8.536012
+Technopark Zürich,Technoparkstrasse 2,61.0,Parkhaus,47.38942,8.515865
+Tic Tric Trac,Räffelstrasse 24,95.0,Parkhaus,47.363411,8.513291
+Tobelhofstrasse,Tobelhofstrasse 23,22.0,Parkhaus,47.377384,8.570427
+Toni-Areal,Förrlibuckstrasse 113,92.0,Parkhaus,47.391889,8.512751
+Unispital Nord,Frauenklinikstrasse 10,104.0,Parkhaus,47.378908,8.549771
+Universität Irchel,Winterthurerstrasse 181,755.0,Parkhaus,47.398158,8.546502
+Urania,Uraniastrasse 3,480.0,Parkhaus,47.374372,8.540752
+Utoquai,Färberstrasse 6,153.0,Parkhaus,47.361735,8.548526
+Vorderberg,Vorderberg 3,20.0,Parkhaus,47.376203,8.558781
+Wallisellenstrasse,Wallisellenstrasse 335,42.0,Parkhaus,47.411309,8.562243
+West-Park,Pfingstweidstrasse 60b,38.0,Parkhaus,47.390569,8.515478
+World Trade Center,Leutschenbachstrasse 77,227.0,Parkhaus,47.417646,8.558284
+Zehntenhaus,Schauenbergstrasse 6a,41.0,Parkhaus,47.418687,8.505949
+Zentrum Affoltern,Riedenhaldenstrasse 289,270.0,Parkhaus,47.420834,8.507767
+Zentrum Schmiede,Zweierstrasse 136,14.0,Parkhaus,47.37095,8.519678
+Zentrum Witikon,Buchzelgstrasse 20a,180.0,Parkhaus,47.359443,8.586093
+Züri 11,Nansenstrasse 7,60.0,Parkhaus,47.410812,8.545114
+Zürichhorn,Baurstrasse 7,195.0,Parkhaus,47.355402,8.553073
