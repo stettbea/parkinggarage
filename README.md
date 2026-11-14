@@ -1,299 +1,94 @@
-# parkinggarage
-data analytics project
+# Zurich Parking Garage Analytics
 
-Ich würde nicht zuerst mit Modeling oder K-Means anfangen. Der erste Schritt ist jetzt: Projekt sauber abgrenzen und sofort mit der Datensammlung starten, weil der offizielle Zürcher Feed nur den aktuellen Zustand liefert und keine eigene Historie enthält.
+## Project Overview
 
-Für euch wäre dieser Start am sinnvollsten:
+This project analyzes parking garage utilization patterns in Zurich, Switzerland, using parking occupancy and weather data.
 
-Forschungsfrage final festlegen. Ich würde aktuell mit dieser arbeiten:
-“How do parking garage utilization patterns in Zurich differ by location, time of day, weekday/weekend and weather conditions, and how reliably can periods of high utilization be identified?”
-Damit ist von Anfang an klar, dass euer Projekt nicht nur eine simple Prediction ist, sondern auch Vergleiche und Muster untersucht.
-Primärdatenquelle testen. Der offizielle Feed der Stadt Zürich liefert laufend die freien Plätze, Status, Parkhausname, Zeitstempel und eine eindeutige ID als XML/RSS. Der aktuelle Endpoint ist http://www.pls-zh.ch/plsFeed/rss. Die Stadt beschreibt die Datenqualität als „sehr gut“, weist aber darauf hin, dass nicht alle Zürcher Parkhäuser im PLS-Verbund enthalten sind.
-Sofort eigene Daten speichern. Das ist momentan der wichtigste Punkt. Der Feed enthält nur die aktuelle Belegung. Wenn ihr heute nicht sammelt, könnt ihr diesen Zeitpunkt später nicht aus dem offiziellen Feed rekonstruieren. Ich würde alle 15 Minuten speichern. Das reicht völlig und hält die Datenmenge übersichtlich.
+The objective is to understand how parking garage utilization varies across locations, times of day, weekdays, weekends, and weather conditions. The project also investigates how reliably periods of high utilization can be identified.
 
-Eure erste Rohdatentabelle sollte zunächst wirklich nur so aussehen:
+## Research Question
 
-timestamp	parking_id	parking_name	free_spaces	status
-2026-10-08 18:00	…	Urania	125	open
-2026-10-08 18:15	…	Urania	111	open
-2026-10-08 18:30	…	Urania	97	open
+**How do parking garage utilization patterns in Zurich differ by location, time of day, weekday/weekend and weather conditions, and how reliably can periods of high utilization be identified?**
 
-Die Stadt liefert dafür genau die relevanten Felder title, description, pubDate und guid; in description stecken Status und Zahl der aktuell freien Plätze. Mögliche Statuswerte sind open, closed und unbestimmt.
+## Data Sources
 
-Danach würde ich in dieser Reihenfolge arbeiten
-Phase 1 – diese Woche: Datenquelle verstehen
+The project combines two main data sources:
 
-Bevor ihr irgendetwas automatisiert, ruft ihr den Feed einmal in Python ab und schaut euch an:
+| Data Source | Description |
+|---|---|
+| Zurich Parking Guidance System (PLS) | Parking garage availability and status data, collected approximately every 15 minutes |
+| Open-Meteo Historical Forecast API | Hourly weather data, including temperature, precipitation, snowfall, wind speed, and cloud cover |
 
-import requests
+## Technologies
 
-url = "http://www.pls-zh.ch/plsFeed/rss"
+- **Python:** Data collection, processing, and analysis
+- **PostgreSQL (Neon):** Database storage
+- **GitHub Actions:** Automated data collection
+- **SQL:** Data integration and querying
+- **Jupyter Notebooks:** Data cleaning, exploratory analysis, and machine learning
 
-response = requests.get(url)
+## Repository Structure
 
-print(response.status_code)
-print(response.text[:2000])
-
-Ziel ist noch nicht, perfekten Code zu schreiben. Ihr wollt zuerst wissen:
-
-Wie viele Parkhäuser werden geliefert?
-Wie sieht description genau aus?
-Ist guid stabil?
-Wie werden geschlossene Parkhäuser dargestellt?
-Ist immer eine Zahl für freie Plätze vorhanden?
-
-Danach bauen wir daraus einen Pandas-DataFrame.
-
-Phase 2 – Parkhaus-Stammdaten erstellen
-
-Ihr braucht zusätzlich pro Parkhaus:
-
-parking_id
-name
-capacity
-address
-latitude
-longitude
-
-Das ist notwendig, weil free_spaces = 40 alleine nichts sagt.
-
-Bei einem Parkhaus mit 50 Plätzen bedeutet es:
-
-nur 20 % belegt.
-
-Bei einem Parkhaus mit 500 Plätzen:
-
-92 % belegt.
-
-Erst daraus entsteht eure zentrale Kennzahl:
-
-$$ occupancy\_rate = \frac{capacity-free\_spaces}{capacity} $$
-
-Der Feed enthält für jedes Objekt auch einen Link zu Detailinformationen wie Adresse, Parkplatzangebot, Tarife und Betreiber.
-
-Zusätzlich gibt es einen offiziellen Geodatensatz mit sämtlichen öffentlich zugänglichen Parkhäusern in Zürich, unter anderem als CSV und GeoJSON.
-
-Das wird dann eure zweite Datenquelle bzw. einer der Integrationsschritte.
-
-Phase 3 – automatisches Sammeln
-
-Erst wenn der einmalige Abruf funktioniert, automatisieren wir:
-
-alle 15 Minuten
-
-Feed abrufen
-      ↓
-XML parsen
-      ↓
-Parkhäuser extrahieren
-      ↓
-timestamp hinzufügen
-      ↓
-PostgreSQL speichern
-
-Warum ich hier PostgreSQL direkt von Anfang an nehmen würde: Ihr bekommt dafür einen Zusatzpunkt und müsst später nicht von SQLite migrieren.
-
-Bei beispielsweise 25 Parkhäusern:
-
-$$ 25 \times 4 \times 24 = 2400 $$
-
-Records pro Tag.
-
-Nach 6 Wochen wären das rund:
-
-$$ 100'800 $$
-
-Records.
-
-Das ist für euer Projekt sehr angenehm: groß genug für eine ordentliche Analyse, aber überhaupt nicht problematisch.
-
-Phase 4 – Wetter erst später hinzufügen
-
-Wetter würde ich nicht direkt in den Collector einbauen.
-
-Sammelt zuerst sauber:
-
-Parkhaus + Zeit + freie Plätze.
-
-Das Wetter können wir danach anhand des Zeitstempels dazujoinen.
-
-Das verhindert, dass euer Collector unnötig kompliziert wird.
-
-Euer finaler Datensatz könnte später so aussehen:
-
-timestamp	parking	capacity	free	occupancy	hour	weekday	rain	temp
-18:00	Urania	500	125	0.75	18	Thu	1	12.1
-18:15	Urania	500	111	0.778	18	Thu	1	12.1
-Phase 5 – erst dann EDA
-
-Wenn ihr ungefähr 1–2 Wochen Daten habt, könnt ihr schon eine erste Exploratory Data Analysis durchführen.
-
-Ich würde zunächst genau diese Fragen beantworten:
-
-Wie hoch ist die durchschnittliche Auslastung pro Parkhaus?
-Wann sind die Parkhäuser am vollsten?
-Wie unterscheiden sich Montag–Freitag und Wochenende?
-Welche Parkhäuser haben besonders starke Schwankungen?
-Wie häufig erreichen einzelne Parkhäuser beispielsweise >80 %, >90 % oder >95 %?
-Gibt es offensichtliche Tagesmuster?
-
-Erste Visualisierungen:
-
-1. Line Plot
-Auslastung über einen Tag
-
-2. Heatmap
-Wochentag × Stunde
-
-3. Boxplot
-Auslastung pro Parkhaus
-
-4. Barplot
-Anteil Beobachtungen mit hoher Auslastung
-
-5. Karte
-durchschnittliche Auslastung pro Parkhaus
-
-Noch kein Machine Learning.
-
-Erst die EDA entscheidet beispielsweise, ob 90 % überhaupt eine sinnvolle Definition von „high utilization“ ist.
-
-Phase 6 – danach Forschungsfrage konkretisieren
-
-Das ist wichtig: Einige Entscheidungen sollten wir nicht jetzt erraten.
-
-Beispielsweise wissen wir momentan noch nicht, ob:
-
-occupancy >= 90 %
-
-ein sinnvolles Target ist.
-
-Angenommen, nur 0.2 % aller Beobachtungen liegen über 90 %. Dann wäre Classification schwierig.
-
-Vielleicht ergeben die Daten:
-
->= 85 %
-
-als besseren Grenzwert.
-
-Oder vielleicht funktioniert eine Regression auf occupancy_rate besser.
-
-Deshalb:
-
-Daten zuerst kennenlernen → dann Modeling finalisieren.
-
-Phase 7 – K-Means und Statistik
-
-Wenn genügend Daten vorhanden sind, aggregiert ihr jedes Parkhaus beispielsweise zu:
-
-avg_morning_occupancy
-avg_afternoon_occupancy
-avg_evening_occupancy
-avg_weekend_occupancy
-peak_occupancy
-high_occupancy_frequency
-
-Darauf könnt ihr K-Means anwenden.
-
-Dann könnten sich etwa Nutzungsprofile herausbilden wie:
-
-Cluster 1
-tagsüber stark ausgelastet
-
-Cluster 2
-abends stark ausgelastet
-
-Cluster 3
-am Wochenende stark
-
-Cluster 4
-generell geringe Nutzung
-
-Wichtig: Diese Clusterbezeichnungen bestimmen wir erst anhand der tatsächlichen Ergebnisse.
-
-Beim statistischen Test würde ich wahrscheinlich einen einfachen Chi-Quadrat-Test verwenden:
-
-Besteht ein Zusammenhang zwischen weekday/weekend und high utilization?
-
-Das ist leicht verständlich und sinnvoll.
-
-Phase 8 – Modeling
-
-Erst ganz zum Schluss.
-
-Interessantes Target:
-
-Wird das Parkhaus in 30 Minuten eine hohe Auslastung erreichen?
-
-Dann verwendet ihr beispielsweise:
-
-current_occupancy
-occupancy_change_last_30min
-hour
-weekday
-weekend
-temperature
-rain
-parking_garage
-capacity
-
-und vergleicht:
-
-Logistic Regression
-vs.
-Random Forest
-
-mit:
-
-Precision
-Recall
-F1
-Confusion Matrix
-Konkret: Was ich an eurer Stelle jetzt heute machen würde
-
-Nicht zehn Dinge gleichzeitig.
-
-Heute würde ich nur drei Aufgaben erledigen:
-
-A. Projektordner/GitHub anlegen.
-
-parking-analytics-zurich/
-│
+```text
+parkinggarage/
+├── .github/workflows/     # Automated data collection
 ├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/
-│
-├── src/
-│   └── collect_parking_data.py
-│
+│   ├── raw/               # Collected raw data
+│   ├── processed/         # Cleaned datasets
+│   └── external/          # Additional data sources
+├── docs/                  # Technical documentation
+├── figures/               # Visualizations and analysis results
+├── notebooks/             # Data cleaning, EDA, and modeling
 ├── sql/
-│
+│   ├── queries/           # SQL analysis queries
+│   └── schema.sql         # Database schema
+├── src/                   # Python scripts
 └── README.md
+```
 
-B. Den RSS-Feed einmal in Python abrufen und in einen sauberen DataFrame umwandeln.
+## Data Pipeline
 
-C. Prüfen, welche Parkhäuser tatsächlich geliefert werden und welche Variablen wir genau erhalten.
+1. Parking garage data is collected automatically from the Zurich PLS feed.
+2. Weather data is retrieved daily from Open-Meteo.
+3. Raw datasets are stored as CSV files and in Neon PostgreSQL.
+4. Parking garage data is cleaned and prepared for analysis.
+5. Cleaned datasets are synchronized with PostgreSQL.
+6. SQL queries combine occupancy measurements with garage information and weather data.
+7. The resulting datasets are used for exploratory data analysis and machine learning.
 
-Danach würde ich erst PostgreSQL und die automatische Datensammlung aufsetzen.
+## Database
 
-## Datenbereinigung (Teil B)
+The PostgreSQL database contains four main tables:
 
-Für EDA und Modell **nur** `data/processed/occupancy_clean.csv` verwenden (bzw. die daraus geladene Tabelle in der Datenbank), nicht die Rohdaten in `data/raw/`.
+| Table | Description |
+|---|---|
+| `parking_garage` | Parking garage master data |
+| `occupancy_snapshot` | Raw parking occupancy measurements |
+| `occupancy_clean` | Cleaned parking occupancy measurements |
+| `weather_hourly` | Hourly weather data |
 
-Die Bereinigung ist in `notebooks/02_integration_cleaning.ipynb` (Schritt 4) dokumentiert:
+Database access requires the `DATABASE_URL` environment variable. Database credentials are not stored in this repository.
 
-1. Zeilen ohne Messwert (`unknown`) entfernen
-2. Eingefrorene Werte entfernen: letzte Änderung **über 48 h** zurück
-3. Hafen Enge (keine Kapazität) und Messe (Anzeige endet bei 999) ausschliessen
-4. Pro 15-Minuten-Fenster und Parkhaus nur einen Snapshot behalten
-5. Kapazität = Maximum aus Stadt-Angabe und höchstem gemeldetem Wert
+## Analysis
 
-⚠️ **Keine 30-Minuten-Regel verwenden.** `source_updated_at_utc` ist die Zeit der *letzten Änderung*, nicht der letzten Messung. Nachts ändert sich wenig, deshalb sind viele korrekte Werte „älter als 30 Minuten“.
+The project focuses on:
 
-Das Wichtigste ist also gerade nicht, die komplette Analyse fertigzuplanen, sondern:
+- Parking garage utilization across different locations
+- Daily and weekly occupancy patterns
+- Differences between weekdays and weekends
+- Relationships between weather conditions and parking utilization
+- Identification and prediction of high-utilization periods
 
-Wir müssen jetzt zuerst sicherstellen, dass wir die Parkhausdaten zuverlässig auslesen und abspeichern können.
+## Documentation
 
-Wenn wir das machen, können wir anschließend wirklich Schritt für Schritt mit eurem ersten Python-Notebook starten – vom API-Abruf bis zu eurem ersten DataFrame, sodass ihr genau versteht, was jede Zeile macht.
+For further information about data collection, database integration, synchronization, and data availability, see:
+
+[`docs/data_pipeline.md`](docs/data_pipeline.md)
+
+## Team Responsibilities
+
+| Team Member | Main Responsibility |
+|---|---|
+| Person A | Data collection, database management, SQL integration, and technical documentation |
+| Person B | Data cleaning, data integration, and data quality |
+| Person C | Exploratory data analysis and machine learning |
