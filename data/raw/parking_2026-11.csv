@@ -47729,3 +47729,40 @@ fetched_at_utc,source_updated_at_utc,parking_id,parking_name,address,status,free
 2026-11-14T01:00:58Z,2026-11-14T00:46:21Z,theater_11,Parkplatz Theater 11,Dörfli-/Thurgauerstrasse,open,154
 2026-11-14T01:00:58Z,2026-11-13T23:20:21Z,unispital_sued,Parkplatz USZ Süd,Gloriastrasse,open,40
 2026-11-14T01:00:58Z,2026-11-14T00:54:20Z,puls5,Puls 5 Parkgarage,Giessereistrasse 18,open,58
+2026-11-14T01:15:33Z,2026-11-13T22:21:21Z,accu,Parkhaus Accu,Otto-Schütz-Weg,open,158
+2026-11-14T01:15:33Z,2026-11-13T23:44:20Z,albisriederplatz,Parkhaus Albisriederplatz,Badenerstrasse 380,open,51
+2026-11-14T01:15:33Z,2026-11-14T01:04:21Z,bleicherweg,Parkhaus Bleicherweg,Beethovenstrasse 35,open,170
+2026-11-14T01:15:33Z,2026-11-13T22:18:20Z,center_11,Parkhaus Center Eleven,Sophie-Täuber-Strasse 4,open,319
+2026-11-14T01:15:33Z,2026-11-14T01:14:20Z,cp,Parkhaus City Parking,Gessnerallee 14,open,451
+2026-11-14T01:15:33Z,2026-11-13T22:09:20Z,cityport,Parkhaus Cityport,Affolternstrasse 56,open,134
+2026-11-14T01:15:33Z,2026-11-13T23:34:21Z,crowne_plaza,Parkhaus Crowne Plaza,Badenerstrasse 420,open,106
+2026-11-14T01:15:33Z,2026-11-13T23:07:21Z,dorflinde,Parkhaus Dorflinde,Schwamendingenstrasse 31,open,41
+2026-11-14T01:15:33Z,2026-11-13T23:17:21Z,feldegg,Parkhaus Feldegg,Riesbachstrasse 7,open,129
+2026-11-14T01:15:33Z,2026-11-14T01:12:20Z,globus,Parkhaus Globus,Löwenstrasse 50,open,111
+2026-11-14T01:15:33Z,2026-11-13T13:52:21Z,hafen_enge,Parkhaus Hafen Enge,Mythenquai 21,open,130
+2026-11-14T01:15:33Z,2026-11-14T01:07:21Z,hardau,Parkhaus Hardau II,Bullingerstrasse 73,open,96
+2026-11-14T01:15:33Z,2026-11-14T00:49:21Z,hb,Parkhaus Hauptbahnhof,Sihlquai 41,open,140
+2026-11-14T01:15:33Z,2026-11-14T01:00:21Z,helvetia,Parkhaus Helvetiaplatz,Molkenstrasse 5/9,open,39
+2026-11-14T01:15:33Z,2026-11-14T01:13:20Z,promenade,Parkhaus Hohe Promenade,Rämistrasse 22a,open,444
+2026-11-14T01:15:33Z,2026-11-14T01:14:20Z,jelmoli,Parkhaus Jelmoli,Steinmühleplatz 1,open,146
+2026-11-14T01:15:33Z,2026-11-13T23:44:20Z,jungholz,Parkhaus Jungholz,Jungholzstrasse 19,open,134
+2026-11-14T01:15:33Z,2026-11-14T00:33:21Z,max_bill_platz,Parkhaus Max-Bill-Platz,Armin-Bollinger-Weg,open,85
+2026-11-14T01:15:33Z,2026-11-13T21:05:20Z,messe,Parkhaus Messe Zürich AG,Andreasstrasse 65,open,999
+2026-11-14T01:15:33Z,2026-11-14T00:24:21Z,nordhaus,Parkhaus Nordhaus,Siewerdtstrasse 8,open,129
+2026-11-14T01:15:33Z,2026-11-13T22:37:21Z,octavo,Parkhaus Octavo,Brown-Boveri-Strasse 2,open,90
+2026-11-14T01:15:33Z,2026-11-14T01:13:21Z,opera,Parkhaus Opéra,Schillerstrasse 5,open,269
+2026-11-14T01:15:33Z,2026-08-17T07:45:20Z,p_west,Parkhaus P West,Förrlibuckstrasse 151,unknown,
+2026-11-14T01:15:33Z,2026-11-13T23:45:21Z,park_hyatt,Parkhaus Park Hyatt,Beethovenstrasse 21,open,267
+2026-11-14T01:15:33Z,2026-11-13T21:36:21Z,parkside,Parkhaus Parkside,Sophie-Täuber-Strasse 10,open,34
+2026-11-14T01:15:33Z,2026-11-14T01:08:20Z,pfingstweid,Parkhaus Pfingstweid,Pfingstweidstrasse 1,open,138
+2026-11-14T01:15:33Z,2026-11-14T00:51:20Z,stampfenbach,Parkhaus Stampfenbach,Niklausstrasse 1,open,171
+2026-11-14T01:15:33Z,2026-11-14T01:14:21Z,talgarten,Parkhaus Talgarten,Nüschelerstrasse 31,open,53
+2026-11-14T01:15:33Z,2026-11-14T01:12:21Z,unispital_nord,Parkhaus USZ Nord,Frauenklinikstrasse,open,85
+2026-11-14T01:15:33Z,2026-11-13T23:26:21Z,uni_irchel,Parkhaus Uni Irchel,Winterthurerstrasse 181,open,500
+2026-11-14T01:15:33Z,2026-11-14T01:14:21Z,urania,Parkhaus Urania,Uraniastrasse 3,open,380
+2026-11-14T01:15:33Z,2026-11-13T23:49:20Z,utoquai,Parkhaus Utoquai,Färberstrasse 6,open,87
+2026-11-14T01:15:33Z,2026-08-17T07:45:20Z,zueri11,Parkhaus Züri 11 Shopping,Nansenstrasse 5/7,open,43
+2026-11-14T01:15:33Z,2026-11-13T22:15:21Z,zuerichhorn,Parkhaus Zürichhorn,Dufourstrasse 142,open,34
+2026-11-14T01:15:33Z,2026-11-14T00:46:21Z,theater_11,Parkplatz Theater 11,Dörfli-/Thurgauerstrasse,open,154
+2026-11-14T01:15:33Z,2026-11-13T23:20:21Z,unispital_sued,Parkplatz USZ Süd,Gloriastrasse,open,40
+2026-11-14T01:15:33Z,2026-11-14T00:54:20Z,puls5,Puls 5 Parkgarage,Giessereistrasse 18,open,58
