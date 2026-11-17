@@ -4,11 +4,12 @@ Data loading for Person C's notebooks (03_eda, 05_model).
 load_data() returns B's cleaned occupancy data, joined with the garage master data
 and the hourly weather, plus the time features used in the EDA and the model.
 
-Source:
-  1. PostgreSQL (Neon), if DATABASE_URL is set in .env  -> sql/queries/c_analysis_dataset.sql
-  2. otherwise the CSV files in data/processed and data/raw (same join in pandas)
+Source: PostgreSQL (Neon) via DATABASE_URL in .env -> sql/queries/c_analysis_dataset.sql
+(joins of occupancy_clean, parking_garage and weather_hourly, run from Python).
 
-Both sources give the same result, so the notebooks run with or without database access.
+There is no silent fallback: if the database is not reachable, load_data() raises an error.
+load_data(source="csv") runs the same join in pandas on data/processed and data/raw, only
+for an explicit offline check.
 Cleaning itself is B's part (notebooks/02_integration_cleaning.ipynb); nothing is
 re-cleaned here.
 """
@@ -67,21 +68,17 @@ def _load_csv():
     return df[cols].sort_values(["parking_id", "slot_utc"]).reset_index(drop=True)
 
 
-def load_data(source="auto", verbose=True):
-    """Analysis dataset. source = "auto" | "sql" | "csv"."""
-    url = _database_url() if source in ("auto", "sql") else None
-    df = None
-    if url:
-        try:
-            df, used = _load_sql(url), "PostgreSQL (sql/queries/c_analysis_dataset.sql)"
-        except Exception as exc:          # no psycopg, no network, database asleep, ...
-            if source == "sql":
-                raise
-            print(f"PostgreSQL not reachable ({type(exc).__name__}: {exc}) – falling back to the CSV files.")
-    elif source == "sql":
-        raise ValueError("DATABASE_URL is missing in .env")
-    if df is None:
-        df, used = _load_csv(), "CSV files (data/processed, data/raw)"
+def load_data(source="sql", verbose=True):
+    """Analysis dataset. source = "sql" (default, PostgreSQL) | "csv" (explicit offline check only)."""
+    if source == "sql":
+        url = _database_url()
+        if not url:
+            raise ValueError("DATABASE_URL is missing in .env – the analysis reads from PostgreSQL.")
+        df, used = _load_sql(url), "PostgreSQL (sql/queries/c_analysis_dataset.sql)"
+    elif source == "csv":
+        df, used = _load_csv(), "CSV files (data/processed, data/raw) – offline check, not PostgreSQL"
+    else:
+        raise ValueError('source must be "sql" or "csv"')
 
     # Time features in Zurich local time (people follow local time, incl. the switch on 25 Oct)
     local = df["slot_utc"].dt.tz_convert(LOCAL_TZ)
